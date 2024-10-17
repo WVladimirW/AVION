@@ -1,0 +1,13 @@
+.btn {
+    display: block;
+    font-family: var(--font-satoshi);
+    padding: 15px 33px;
+    background-color: #F9F9F926;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.btn--light {
+    background-color: var(--light-gray);
+    color: var(--dark-primary);
+}

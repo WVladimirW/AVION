@@ -1,0 +1,19 @@
+:root {
+    --dark-primary: #2A254B;
+    --primary: #4E4D93;
+    --light-gray: #F9F9F9;
+    --border-gray: #EBE8F4;
+    --white: #FFFFFF;
+    --border-dark: #CAC6DA;
+    --font-clashdisplay: "ClashDisplay";
+    --font-satoshi: "Satoshi";
+}
+
+.container {
+    max-width: 1280px;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}

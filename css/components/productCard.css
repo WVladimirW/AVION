@@ -1,0 +1,19 @@
+.card {
+    flex: 1 1 25%;
+}
+.card__pic {
+    margin-bottom: 22px;
+}
+.card__subtitle {
+    font-family: var(--font-clashdisplay);
+    font-size: 20px;
+    line-height: 28px;
+    padding: 1px;
+    margin-bottom: 5px;
+}
+.card__price {
+    font-family: var(--font-satoshi);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 1px;
+}

@@ -1,0 +1,102 @@
+.footer {
+    background-color: var(--dark-primary);
+}
+.footer__container {
+    margin: 0 auto;
+    color: var(--white);
+}
+.footer__top {
+    display: flex;
+    padding-top: 57px;
+    padding-bottom: 35px;
+}
+.footer__left {
+    display: flex;
+    flex: 1 1 50%;
+    gap: 20px;
+}
+.footer__menu {
+    flex: 1 1 33%;
+}
+.footer__menu-item {
+    font-family: var(--font-satoshi);
+    font-size: 14px;
+    line-height: 18.9px;
+    margin-bottom: 12px;
+}
+.footer__menu-item--first {
+    font-family: var(--font-clashdisplay);
+    font-size: 16px;
+    line-height: 19.68px;
+}
+.footer__categories {
+    flex: 1 1 33%;
+}
+.footer__nav-categories-item {
+    font-family: var(--font-satoshi);
+    font-size: 14px;
+    line-height: 18.9px;
+    margin-bottom: 12px;
+}
+.footer__nav-categories-item--first {
+    font-family: var(--font-clashdisplay);
+    font-size: 16px;
+    line-height: 19.68px;
+}
+.footer__company {
+    flex: 1 1 33%;
+}
+.footer__nav-company-item {
+    font-family: var(--font-satoshi);
+    font-size: 14px;
+    line-height: 18.9px;
+    margin-bottom: 12px;
+}
+.footer__nav-company-item--first {
+    font-family: var(--font-clashdisplay);
+    font-size: 16px;
+    line-height: 19.68px;
+}
+.footer__right {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+.footer__text {
+    font-family: var(--font-clashdisplay);
+    font-size: 16px;
+    line-height: 19.68px;
+    margin-bottom: 15px;
+}
+.footer__callback {
+    height: 55px;
+    justify-content: stretch;
+}
+.footer__inp {
+    font-family: var(--font-satoshi);
+    background-color: #FFFFFF26;
+    color: var(--white);
+    font-size: 16px;
+    line-height: 21.6px;
+    width: 506px;
+}
+.footer__btn {
+    font-family: var(--font-satoshi);
+    background-color: var(--white);
+    color: var(--dark-primary);
+    font-size: 16px;
+    line-height: 24px;
+    width: 118px;
+}
+.footer__bottom {
+    border-top: 1px solid var(--primary);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer__social-list {
+    display: flex;
+    gap: 30px;
+}

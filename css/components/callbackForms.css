@@ -1,0 +1,30 @@
+.callback-form {
+    background-color: var(--light-gray);
+    padding: 51px 83px 67px 83px;
+}
+.callback-form__container {
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 71px 71px 42px 71px;
+}
+.callback-form__top {
+    margin-bottom: 72px;
+}
+.callback-form__title {
+    font-family: var(--font-clashdisplay);
+    font-size: 36px;
+    line-height: 50.4px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.callback-form__text {
+    width: 480px;
+    margin: 0 auto;
+    font-family: var(--font-satoshi);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.callback-form__forms {
+    margin-bottom: 10px;
+}
