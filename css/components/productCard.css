@@ -4,6 +4,9 @@
 .card__pic {
     margin-bottom: 22px;
 }
+.card__img {
+    width: 100%;
+}
 .card__subtitle {
     font-family: var(--font-clashdisplay);
     font-size: 20px;
@@ -17,3 +20,22 @@
     line-height: 27px;
     padding: 1px;
 }
+
+.card__img {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.card__img:hover {
+    padding: 2px;
+    opacity: 0.6;
+}
+
+
+@media (max-width: 850px) {
+    .card {
+        flex: 1 1 45%;
+        margin-bottom: 30px;
+    }
+}
+

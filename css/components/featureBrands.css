@@ -32,3 +32,72 @@
     font-size: 16px;
     line-height: 24px;
 }
+
+@media (max-width: 1080px) {
+    .brand__group {
+        display: flex;
+        gap: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 960px) {
+    .brand__container {
+        margin-bottom: 100px;
+    }
+    .brand__title {
+        line-height: 30px;
+        margin-bottom: 35px;
+    }
+    .brand__group {
+        gap: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .brand__item {
+        padding: 0 5px;
+    }
+    .brand__icon {
+        margin-bottom: 10px;
+    }
+    .brand__subtitle {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 850px) {
+    .brand__container {
+        margin-bottom: 50px;
+    }
+    .brand__title {
+        margin-bottom: 20px;
+    }
+    .brand__group {
+        flex-wrap: wrap;
+    }
+    .brand__item {
+        padding: 10px 5px;
+        flex: 1 1 45%;
+    }
+    .brand__icon {
+        margin-bottom: 5px;
+    }
+    .brand__subtitle {
+        margin-bottom: 3px;
+    }
+
+    .catalog__title {
+        margin-bottom: 25px;
+    }
+    .catalog__cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 550px) {
+    .brand__item {
+        padding: 10px 5px;
+        flex: 1 1 95%;
+    }
+}
