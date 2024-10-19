@@ -33,9 +33,7 @@
     display: none;
 }
 
-/* .header__burger--active {
-    display: block;
-} */
+/* TODO Рекомендуется рассмотреть возможность упрощения стилей с использованием transform вместо абсолютного позиционирования для линий (например, вращение верхней и нижней линий при активном состоянии) */
 
 .header__burger-menu {
     position: absolute;
@@ -45,26 +43,24 @@
     height: 10px;
 }
 
-.header__burger-menu::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 5px;
-    border-top: 2px solid black;
-    width: 25px;
-    height: 2px;
-}
-
+.header__burger-menu::before,
 .header__burger-menu::after {
     content: "";
     display: block;
     position: absolute;
-    top: -9px;
     border-top: 2px solid black;
     width: 25px;
-    height: 16px;
 }
 
+.header__burger-menu::before {
+    top: 5px;
+    height: 2px;
+}
+
+.header__burger-menu::after {
+    top: -9px;
+    height: 16px;
+}
 
 .header__bottom {
     background-color: var(--light-gray);

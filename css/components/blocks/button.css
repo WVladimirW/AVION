@@ -1,0 +1,60 @@
+.btn {
+    display: block;
+    font-family: var(--font-satoshi);
+    padding: 15px 32px;
+    background-color: rgba(249, 249, 249, 0.15);
+    font-size: 16px;
+    line-height: 27px;
+    transition: background-color .3s, box-shadow .3s;
+}
+
+.btn:hover, .btn--light:hover {
+    -webkit-box-shadow: 7px 6px 14px -8px rgba(0,0,0,0.68);
+    -moz-box-shadow: 7px 6px 14px -8px rgba(0,0,0,0.68);
+    box-shadow: 7px 6px 14px -8px rgba(0,0,0,0.68);
+}
+
+.btn:hover {
+    background-color: #4e4d93;
+}
+
+.btn:active {
+    background-color: rgba(211, 211, 211, 0.15);
+}
+
+.btn--light {
+    background-color: var(--light-gray);
+    color: var(--dark-primary);
+}
+.btn--light:hover {
+    background-color: #dcdcdc;
+}
+.btn--light:active {
+    background-color: #e5e5e5;
+}
+.btn--arrow span {
+    position: relative;
+}
+
+.btn--arrow span::after {
+    content: "";
+    background: url("../../../source/макет/3_Product\ Listings/2_main/icons/arrow.svg");
+    background-size: cover;
+    position: absolute;
+    right: -25px;
+    top: 0px;
+    height: 20px;
+    width: 20px;
+}
+
+@media (max-width: 850px) {
+    .btn {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .btn {
+        padding: 5px;
+    }
+}

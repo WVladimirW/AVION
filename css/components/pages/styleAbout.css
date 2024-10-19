@@ -1,0 +1,118 @@
+/* ======================Brand build======================== */
+.brand-build {
+}
+.brand-build__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 50px;
+    margin-bottom: 57px;
+}
+.brand-build__title {
+    font-family: var(--font-clashdisplay);
+    font-size: 36px;
+    line-height: 50.4px;
+    max-width: 715px;
+}
+.brand-build__btn {
+    height: 56px;
+    font-family: var(--font-satoshi);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* ===============================idea=============================== */
+.idea__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 59px;
+}
+.idea__left,
+.idea__right {
+    flex: 1 1 50%;
+}
+.idea__left {
+    background-color: var(--dark-primary);
+    color: var(--white);
+    padding: 65px 65px 55px 65px;
+}
+.idea__main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.idea__title {
+    font-family: var(--font-clashdisplay);
+    font-size: 32px;
+    line-height: 39.36px;
+    margin-bottom: 11px;
+}
+.idea__text {
+    font-family: var(--font-satoshi);
+    font-size: 18px;
+    line-height: 24.3px;
+    flex: 1 1 auto;
+}
+.idea__btn {
+    align-self: flex-start;
+}
+
+/* =====================Service====================== */
+.studio--mb {
+    margin-bottom: 81px;
+}
+.studio__left-mod {
+    background-color: var(--light-gray);
+    order: 2;
+}
+.studio__title--service {
+    max-width: 470px;
+}
+.studio__right--mod {
+    order: 1;
+}
+.studio__btn--w {
+    background-color: var(--white);
+}
+
+/* =============================brands========================== */
+.brand__container--mb {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 1180px) {
+    .brand-build__container {
+        flex-direction: column;
+        padding: 60px 15px;
+        
+    }
+    .brand-build__title {
+        align-self: center;
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 960px) {
+    .idea__container {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .idea__left {
+        padding: 30px;
+    }
+    .idea__title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .idea__text {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 60px;
+    }
+    .idea__btn {
+        align-self: inherit;
+    }
+}

@@ -1,6 +1,5 @@
 .products__container {
-    margin: 0 auto;
-    margin-bottom: 47px;
+    margin: 0 auto 47px auto;
 }
 .products__title {
     font-family: var(--font-clashdisplay);

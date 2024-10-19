@@ -23,11 +23,11 @@
 
 .card__img {
     cursor: pointer;
-    transition: all .3s;
+    transition: transform .3s;
 }
 
 .card__img:hover {
-    padding: 2px;
+    transform: scale(0.98);
     opacity: 0.6;
 }
 

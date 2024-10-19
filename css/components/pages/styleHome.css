@@ -1,0 +1,193 @@
+/* ========================furniture====================== */
+.furniture__container {
+    margin: 61px auto;
+    display: flex;
+    margin-bottom: 122px;
+}
+.furniture__left {
+    background-color: var(--dark-primary);
+    color: var(--white);
+    width: 100%;
+}
+.furniture__main {
+    padding: 61px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.furniture__title {
+    font-family: var(--font-clashdisplay);
+    font-size: 32px;
+    line-height: 45px;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+.furniture__btn {
+    align-self: flex-start;
+    font-family: var(--font-satoshi);
+    padding: 15px 33px;
+    background-color: #F9F9F926;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.furniture__text {
+    margin-top: auto;
+    font-family: var(--font-satoshi);
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 610px;
+}
+.furniture__right {
+    max-width: 519px;
+}
+
+/* ===============New ceramics CATALOG============ */
+.catalog__container {
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.catalog__title {
+    font-family: var(--font-clashdisplay);
+    font-size: 32px;
+    line-height: 39.36px;
+    padding-left: 1px;
+    margin-bottom: 31px;
+}
+.catalog__cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 36px;
+}
+.catalog__btn {
+    display: block;
+    margin: 0 auto;
+    background-color: var(--light-gray);
+}
+
+/* ======================STUDIO====================== */
+.studio {
+    display: flex;
+}
+.studio__left {
+    flex: 1 1 50%;
+    padding: 71px 86px;
+}
+.studio__top {
+    display: flex;
+    flex-direction: column;
+    height: 91%;
+}
+.studio__title {
+    font-family: var(--font-clashdisplay);
+    font-size: 24px;
+    line-height: 33.6px;
+    margin-bottom: 26px;
+}
+.studio__text {
+    font-family: var(--font-satoshi);
+    font-size: 16px;
+    line-height: 21.6px;
+}
+.studio__text p {
+    margin-bottom: 22px;
+}
+.studio__btn {
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+.studio__right {
+    flex: 1 1 50%;
+}
+.studio__img {
+    display: block;
+    height: 100%;
+}
+
+@media (max-width: 1080px) {
+    .catalog__cards {
+        gap: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .studio__left {
+        padding: 20px 35px;
+    }
+    .studio__top {
+        height: 80%;
+    }
+    .studio__title {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 960px) {
+    .furniture__container {
+        margin: 30px auto;
+        margin-bottom: 45px;
+    }
+    .furniture__main {
+        padding: 30px;
+    }
+    .furniture__right {
+        max-width: 350px;
+    }
+    .catalog__container {
+        margin-bottom: 60px;
+        padding: 20px;
+    }
+    .studio__title {
+        margin-bottom: 10px;
+    }
+    .studio__right {
+        flex: 1 1 35%;
+    }
+}
+
+@media (max-width: 850px) {
+    .furniture__right {
+        display: none;
+    }
+    .furniture__main {
+        padding: 50px;
+    }
+    .studio {
+        flex-wrap: wrap;
+    }
+    .studio__left {
+        flex: 1 1 95%;
+        padding: 55px 25px;
+    }
+    .studio__top {
+        height: 90%;
+    }
+}
+
+@media (max-width: 550px) {
+    .furniture__left {
+        height: 500px;
+    }
+    .furniture__main {
+        padding: 35px;
+    }
+    .furniture__title {
+        order: 1;
+    }
+    .furniture__btn {
+        order: 3;
+        margin-bottom: 0px;
+    }
+    .furniture__text {
+        order: 2;
+        flex: 0 1 auto;
+        margin-bottom: 20px;
+    }
+    .catalog__btn {
+        width: 100%;
+        padding: 15px;
+    }
+    .studio__btn {
+        width: 100%;
+        padding: 15px;
+    }
+}
