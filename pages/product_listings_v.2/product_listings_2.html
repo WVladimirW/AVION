@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product listings</title>
+    <link rel="stylesheet" href="/fonts/ClashDisplay/clash-display.css">
+    <link rel="stylesheet" href="/fonts/Satoshi/satoshi.css">
+    <link rel="stylesheet" href="/css/reset_styles.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components/blocks/button.css">
+    <link rel="stylesheet" href="/css/components/blocks/callback.css">
+    <link rel="stylesheet" href="/css/components/header.css">
+    <link rel="stylesheet" href="/css/components/productCard.css">
+    <link rel="stylesheet" href="/css/components/popularProducts.css">
+    <link rel="stylesheet" href="/css/components/callbackForms.css">
+    <link rel="stylesheet" href="/css/components/featureBrands.css">
+    <link rel="stylesheet" href="/css/components/footer.css">
+    <link rel="stylesheet" href="/css/components/pages/styleAbout.css">
+    <link rel="stylesheet" href="/css/components/pages/styleProductListingsV2.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- header__top -->
+        <div class="header__top">
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">
+                    <img class="header__logo-img" src="../../source/макет/header/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header__contacts">
+                <ul class="header__contacts-nav">
+                    <li class="header__contacts-item">About us</li>
+                    <li class="header__contacts-item">Contact</li>
+                    <li class="header__contacts-item">Blog</li>
+                </ul>
+                <div class="header__contacts-icons">
+                    <a href="" class="header__contacts-icon">
+                        <img class="header__contacts-icon-item" src="../../source/макет/header/icons/Search.svg" alt="">
+                    </a>
+                    <a href="" class="header__contacts-icon">
+                        <img class="header__contacts-icon-item" src="../../source/макет/header/icons/Shopping--cart.svg"
+                            alt="">
+                    </a>
+                    <a href="" class="header__contacts-icon">
+                        <img class="header__contacts-icon-item" src="../../source/макет/header/icons/User--avatar.svg"
+                            alt="">
+                    </a>
+                </div>
+                <div class="header__burger">
+                    <div class="header__burger-menu"></div>
+                </div>
+            </div>
+        </div>
+        <!-- END header__top -->
+        <!-- header__bottom -->
+        <div class="header__bottom">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a href="" class="header__item-link">
+                            All products
+                        </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="" class="header__item-link">
+                            Plant pots
+                        </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="" class="header__item-link">
+                            Ceramics
+                        </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="" class="header__item-link">
+                            Tables
+                        </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="" class="header__item-link">
+                            Chairs
+                        </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="" class="header__item-link">
+                            Crockery
+                        </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="" class="header__item-link">
+                            Tableware
+                        </a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="" class="header__item-link">
+                            Cutlery
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- END header__bottom -->
+    </header>
+    <section class="product-card">
+        <div class="product-card__container">
+            <div class="product-card__left">
+                <img class="product-card__img" src="../../source/макет/4_Product Listing v.2/1_The Dandy Chair/1.png"
+                    alt="chair">
+            </div>
+            <div class="product-card__right">
+                <div class="product-card__top">
+                    <h1 class="product-card__title">The Dandy Chair</h1>
+                    <p class="product-card__price">£250</p>
+                </div>
+                <div class="product-card__main">
+                    <div class="product-card__main-top">
+                        <p class="product-card__text-title">Product description</p>
+                        <p class="product-card__text">
+                            A timeless design, with premium materials features as one of our most popular and iconic
+                            pieces.
+                            The dandy chair is perfect for any stylish living space with beech legs and lambskin leather
+                            upholstery.
+                        </p>
+                    </div>
+                    <p class="product-card__text-title product-card__main-title">Dimensions</p>
+                    <div class="product-card__sizes">
+                        <div class="product-card__sizes-item">
+                            <p class="product-card__p-title">Height</p>
+                            <p class="product-card__p-text">110cm</p>
+                        </div>
+                        <div class="product-card__sizes-item">
+                            <p class="product-card__p-title">Width</p>
+                            <p class="product-card__p-text">75cm</p>
+                        </div>
+                        <div class="product-card__sizes-item">
+                            <p class="product-card__p-title">Depth</p>
+                            <p class="product-card__p-text">50cm</p>
+                        </div>
+                    </div>
+                    <div class="product-card__quantity">
+                        <p class="product-card__text-title">Quantitity</p>
+                        <input class="product-card__inp" type="text" value="1">
+                    </div>
+                </div>
+                <div class="product-card__btns">
+                    <button class="product-card__btn btn btn--blue">Add to cart</button>
+                    <button class="product-card__btn btn btn--white">Save to favorites</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-card">
+        <div class="product-card__container">
+            <div class="product-card__left">
+                <img class="product-card__img" src="../../source/макет/4_Product Listing v.2/1_The Dandy Chair/1.png"
+                    alt="chair">
+            </div>
+            <div class="product-card__right">
+                <div class="product-card__top">
+                    <h1 class="product-card__title">The Dandy Chair</h1>
+                    <p class="product-card__price">£250</p>
+                </div>
+                <div class="product-card__main">
+                    <div class="product-card__main-top">
+                        <p class="product-card__text-title">Product description</p>
+                        <p class="product-card__text">
+                            A timeless design, with premium materials features as one of our most popular and iconic
+                            pieces.
+                            The dandy chair is perfect for any stylish living space with beech legs and lambskin leather
+                            upholstery.
+                        </p>
+                    </div>
+                    <p class="product-card__text-title product-card__main-title">Dimensions</p>
+                    <div class="product-card__sizes">
+                        <div class="product-card__sizes-item">
+                            <p class="product-card__p-title">Height</p>
+                            <p class="product-card__p-text">110cm</p>
+                        </div>
+                        <div class="product-card__sizes-item">
+                            <p class="product-card__p-title">Width</p>
+                            <p class="product-card__p-text">75cm</p>
+                        </div>
+                        <div class="product-card__sizes-item">
+                            <p class="product-card__p-title">Depth</p>
+                            <p class="product-card__p-text">50cm</p>
+                        </div>
+                    </div>
+                    <div class="product-card__quantity">
+                        <p class="product-card__text-title">Quantitity</p>
+                        <input class="product-card__inp" type="text" value="1">
+                    </div>
+                </div>
+                <div class="product-card__btns">
+                    <button class="product-card__btn btn btn--blue">Add to cart</button>
+                    <button class="product-card__btn btn btn--white">Save to favorites</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="products__container container">
+            <h3 class="products__title">You might also love these</h3>
+            <div class="products__cards">
+                <div class="products__card products__card--big card card">
+                    <div class="card__pic">
+                        <img class="card__img" src="../../source/макет/1_home page/4_Our popular products/1.png" alt="">
+                    </div>
+                    <p class="card__subtitle">The Poplar suede sofa</p>
+                    <p class="card__price">£980</p>
+                </div>
+                <div class="products__card card">
+                    <div class="card__pic">
+                        <img class="card__img" src="../../source/макет/1_home page/4_Our popular products/2.png" alt="">
+                    </div>
+                    <p class="card__subtitle">The Dandy chair</p>
+                    <p class="card__price">£250</p>
+                </div>
+                <div class="products__card card">
+                    <div class="card__pic">
+                        <img class="card__img" src="../../source/макет/1_home page/4_Our popular products/3.png" alt="">
+                    </div>
+                    <p class="card__subtitle">The Dandy chair</p>
+                    <p class="card__price">£250</p>
+                </div>
+            </div>
+            <button class="products__btn btn btn--light">View collection</button>
+        </div>
+    </section>
+    <section class="brand">
+        <div class="brand__container brand__container--mb">
+            <h3 class="brand__title">What makes our brand different</h3>
+            <div class="brand__group">
+                <div class="brand__item brand__item--light">
+                    <img class="brand__icon"
+                        src="../../source/макет/1_home page/2_What makes our brand different/icons/Delivery.svg" alt="">
+                    <h4 class="brand__subtitle">Next day as standard</h4>
+                    <p class="brand__text">
+                        Order before 3pm and get your order
+                        the next day as standard
+                    </p>
+                </div>
+                <div class="brand__item brand__item--light">
+                    <img class="brand__icon"
+                        src="../../source/макет/1_home page/2_What makes our brand different/icons/Checkmark--outline.svg"
+                        alt="">
+                    <h4 class="brand__subtitle">Made by true artisans</h4>
+                    <p class="brand__text">
+                        Handmade crafted goods made with
+                        real passion and craftmanship
+                    </p>
+                </div>
+                <div class="brand__item brand__item--light">
+                    <img class="brand__icon"
+                        src="../../source/макет/1_home page/2_What makes our brand different/icons/Purchase.svg" alt="">
+                    <h4 class="brand__subtitle">Unbeatable prices</h4>
+                    <p class="brand__text">
+                        For our materials and quality you won’t find better prices anywhere
+                    </p>
+                </div>
+                <div class="brand__item brand__item--light">
+                    <img class="brand__icon"
+                        src="../../source/макет/1_home page/2_What makes our brand different/icons/Sprout.svg" alt="">
+                    <h4 class="brand__subtitle">Recycled packaging</h4>
+                    <p class="brand__text">
+                        We use 100% recycled packaging to ensure our footprint is manageable
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="callback-form">
+        <div class="callback-form__container">
+            <div class="callback-form__top">
+                <h1 class="callback-form__title">Join the club and get the benefits</h1>
+                <p class="callback-form__text">
+                    Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more
+                </p>
+            </div>
+            <div class="callback callback-form__forms">
+                <form class="callback__form callback-form__form">
+                    <input class="callback__inp callback-form__inp" type="text" placeholder="your@email.com">
+                    <button class="callback__btn callback-form__btn btn">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+                <div class="footer__left">
+                    <div class="footer__menu">
+                        <nav class="footer__nav-menu">
+                            <ul class="footer__nav-menu-list">
+                                <li class="footer__menu-item footer__menu-item--first">
+                                    <a href="#" class="footer__menu-item-link">
+                                        Menu
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-item-link">
+                                        New arrivals
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-item-link">
+                                        Best sellers
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-item-link">
+                                        Recently viewed
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-item-link">
+                                        Popular this week
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a href="#" class="footer__menu-item-link">
+                                        All products
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- footer__menu -->
+
+                    <div class="footer__categories">
+                        <nav class="footer__nav-categories">
+                            <ul class="footer__nav-categories-list">
+                                <li class="footer__nav-categories-item footer__nav-categories-item--first">
+                                    <a href="#" class="footer__nav-categories-link">
+                                        Categories
+                                    </a>
+                                </li>
+                                <li class="footer__nav-categories-item">
+                                    <a href="#" class="footer__nav-categories-link">
+                                        Crockery
+                                    </a>
+                                </li>
+                                <li class="footer__nav-categories-item">
+                                    <a href="#" class="footer__nav-categories-link">
+                                        Furniture
+                                    </a>
+                                </li>
+                                <li class="footer__nav-categories-item">
+                                    <a href="#" class="footer__nav-categories-link">
+                                        Homeware
+                                    </a>
+                                </li>
+                                <li class="footer__nav-categories-item">
+                                    <a href="#" class="footer__nav-categories-link">
+                                        Plant pots
+                                    </a>
+                                </li>
+                                <li class="footer__nav-categories-item">
+                                    <a href="#" class="footer__nav-categories-link">
+                                        Chairs
+                                    </a>
+                                </li>
+                                <li class="footer__nav-categories-item">
+                                    <a href="#" class="footer__nav-categories-link">
+                                        Crockery
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- footer__categories -->
+
+                    <div class="footer__company">
+                        <nav class="footer__nav-company">
+                            <ul class="footer__nav-company-list">
+                                <li class="footer__nav-company-item footer__nav-company-item--first">
+                                    <a href="#" class="footer__nav-company-link">
+                                        Our company
+                                    </a>
+                                </li>
+                                <li class="footer__nav-company-item">
+                                    <a href="#" class="footer__nav-company-link">
+                                        About us
+                                    </a>
+                                </li>
+                                <li class="footer__nav-company-item">
+                                    <a href="#" class="footer__nav-company-link">
+                                        Vacancies
+                                    </a>
+                                </li>
+                                <li class="footer__nav-company-item">
+                                    <a href="#" class="footer__nav-company-link">
+                                        Contact us
+                                    </a>
+                                </li>
+                                <li class="footer__nav-company-item">
+                                    <a href="#" class="footer__nav-company-link">
+                                        Privacy
+                                    </a>
+                                </li>
+                                <li class="footer__nav-company-item">
+                                    <a href="#" class="footer__nav-company-link">
+                                        Returns policy
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- footer__company -->
+                </div>
+                <!-- End footer__left -->
+
+                <div class="footer__right">
+                    <div class="footer__right-container">
+                        <p class="footer__text">Join our mailing list</p>
+                        <div class="callback">
+                            <form class="callback__form footer__callback">
+                                <input class="callback__inp callback__inp--w footer__inp" type="text"
+                                    placeholder="your@email.com">
+                                <button class="callback__btn callback__btn--w footer__btn btn btn--light">Sign
+                                    up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End footer__top -->
+            <div class="footer__bottom">
+                <div class="footer__copy">Copyright 2022 Avion LTD</div>
+                <div class="footer__social">
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="" class="footer__social-link">
+                                <img src="../../source/макет/footer/icons/LinkedIn.svg" alt="linkedin"
+                                    class="footer__social-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="" class="footer__social-link">
+                                <img src="../../source/макет/footer/icons/Facebook.svg" alt="facebook"
+                                    class="footer__social-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="" class="footer__social-link">
+                                <img src="../../source/макет/footer/icons/Instagram.svg" alt="instagram"
+                                    class="footer__social-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="" class="footer__social-link">
+                                <img src="../../source/макет/footer/icons/Skype.svg" alt="skype"
+                                    class="footer__social-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="" class="footer__social-link">
+                                <img src="../../source/макет/footer/icons/Twitter.svg" alt="twitter"
+                                    class="footer__social-img">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="" class="footer__social-link">
+                                <img src="../../source/макет/footer/icons/Pinterest.svg" alt="pinterest"
+                                    class="footer__social-img">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- footer__social -->
+            </div>
+            <!-- footer__bottom -->
+        </div>
+        <!-- container -->
+    </footer>
+</body>
+
+</html>

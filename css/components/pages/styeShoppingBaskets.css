@@ -1,0 +1,209 @@
+.shop {
+    background-color: var(--light-gray);
+    padding: 65px 60px;
+}
+.shop__container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    max-width: 1280px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.shop__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px 27px 44px;
+    padding: 43px 0 15px 0;
+    border-bottom: 1px solid var(--border-gray);
+}
+.shop__top-m {
+    display: none;
+}
+.shop__title {
+    font-family: var(--font-clashdisplay);
+    font-size: 14px;
+    line-height: 19.6px;
+}
+.shop__product-title {
+    flex: 1 1 66.6%;
+}
+.shop__quantity-title {
+    flex: 1 1 16.7%;
+}
+.shop__total-title {
+    flex: 1 1 16.7%;
+    text-align: right;
+}
+.shop__basket {
+    margin: 0 40px 15px 44px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--border-gray);
+}
+.shop__basket-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.shop__product-card {
+    display: flex;
+    flex: 1 1 66.6%;
+    height: 134px;
+}
+.shop__left {
+    margin-right: 24px;
+}
+.shop__img {
+    height: 100%;
+}
+.shop__right {
+    width: 235px;
+    padding: 12px 0;
+}
+.shop__right-title {
+    font-family: var(--font-clashdisplay);
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+.shop__right-text {
+    font-family: var(--font-satoshi);
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+.shop__right-price {
+    font-family: var(--font-satoshi);
+    font-size: 16px;
+    line-height: 24px;
+}
+.shop__count {
+    padding: 12px 0;
+    flex: 1 1 16.7%;
+}
+.shop__inp {
+    background-color: var(--light-gray);
+    padding: 15px 0px;
+    text-align: center;
+    width: 122px;
+    height: 46px;
+}
+.shop__price {
+    flex: 1 1 16.7%;
+    padding: 11px 0;
+    text-align: right;
+}
+.shop__price-text {
+    font-family: var(--font-satoshi);
+    font-size: 18px;
+    line-height: 27px;
+}
+.shop__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 30px 44px;
+}
+.shop__bottom-text {
+    color: var(--dark-primary);
+    font-family: var(--font-satoshi);
+    font-size: 14px;
+    line-height: 21px;
+}
+.shop__bottom-total {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 13px;
+}
+.shop__subtitle {
+    color: var(--primary);
+    font-family: var(--font-clashdisplay);
+    font-size: 20px;
+    line-height: 28px;
+}
+.shop__total {
+    align-self: flex-start;
+    color: var(--dark-primary);
+    font-family: var(--font-clashdisplay);
+    font-size: 24px;
+    line-height: 33.6px;
+}
+
+@media (max-width: 910px) {
+    .shop {
+        padding: 20px;
+    }
+    .shop__container {
+        padding: 0;
+    }
+    .shop__top,
+    .shop__basket,
+    .shop__bottom {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .shop__container {
+        background-color: var(--light-gray);
+    }
+    .shop__top,
+    .shop__basket {
+        margin: 0 0 10px 0;
+    }
+    .shop__bottom {
+        margin: 0;
+    }
+    .shop__top-m {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .shop__top {
+        display: none;
+    }
+    .shop__title-m {
+        font-family: var(--font-clashdisplay);
+        font-size: 24px;
+        line-height: 33.6px;
+    }
+    .shop__product-card {
+        flex: 1 1 100%;
+        height: 166px;
+    }
+    .shop__left {
+        min-width: 133px;
+    }
+    .shop__right {
+        width: auto;
+        padding: 12px 0;
+    }
+    .shop__right-title {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+    .shop__count,
+    .shop__price {
+        display: none;
+    }
+    .shop__bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .shop__bottom-total {
+        margin-bottom: 20px;
+    }
+    .shop__bottom-left {
+        align-self: flex-end;
+        margin-bottom: 5px;
+    }
+    .shop__checkout {
+        display: flex;
+        flex-direction: column;
+    }
+    .shop__checkout-btn {
+        width: 100%;
+        height: 56px;
+    }
+}

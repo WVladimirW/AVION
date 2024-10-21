@@ -82,7 +82,8 @@
     }
     .brand__item {
         padding: 10px 5px;
-        flex: 1 1 45%;
+        flex: 1 1 40%;
+        margin: 0 20px;
     }
     .brand__icon {
         margin-bottom: 5px;

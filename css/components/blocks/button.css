@@ -26,7 +26,18 @@
     background-color: var(--light-gray);
     color: var(--dark-primary);
 }
-.btn--light:hover {
+
+.btn--blue {
+    background-color: var(--dark-primary);
+    color: var(--white);
+}
+
+.btn--white {
+    background-color: var(--white);
+    color: var(--dark-primary);
+}
+.btn--light:hover,
+.btn--white:hover {
     background-color: #dcdcdc;
 }
 .btn--light:active {
